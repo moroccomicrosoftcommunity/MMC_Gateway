@@ -1,0 +1,5 @@
+@MMC_Gateway_HostAddress = https://mmcgateway.azurewebsites.net/
+
+GET {{MMC_Gateway_HostAddress}}/gateway/event
+Accept: application/json
+
