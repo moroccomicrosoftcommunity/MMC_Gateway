@@ -51,7 +51,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'mmc-gateway'
+          app-name: 'mmc-apigateway'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0D0B40B2B0AA4FB4BD46D7BCEC0F6CFC }}
           package: .
