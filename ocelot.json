@@ -335,7 +335,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "mmc-speaker.azurewebsites.net"
-          
+
         }
       ]
     },
@@ -448,6 +448,19 @@
       "UpstreamPathTemplate": "/gateway/Event/",
       "UpstreamHttpMethod": [ "Post", "Get" ],
       "DownstreamPathTemplate": "/api/Event/",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mmc-event.azurewebsites.net"
+
+        }
+
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Event/GetLastThree/",
+      "UpstreamHttpMethod": [ "Post", "Get" ],
+      "DownstreamPathTemplate": "/api/Event/GetLastThree",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
