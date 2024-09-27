@@ -65,7 +65,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -76,7 +76,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
       //"AuthenticationOptions": {
@@ -96,7 +96,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
       //],
@@ -116,7 +116,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -127,7 +127,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -139,7 +139,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -152,7 +152,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -164,7 +164,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -176,7 +176,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -189,7 +189,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -200,7 +200,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -213,7 +213,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -224,7 +224,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -237,7 +237,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -248,7 +248,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -261,7 +261,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -272,7 +272,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -286,7 +286,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -297,7 +297,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -357,7 +357,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
@@ -368,7 +368,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "mmc-params.azurewebsites.net"
+          "Host": "mmc-param.azurewebsites.net"
         }
       ]
     },
