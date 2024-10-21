@@ -623,8 +623,52 @@
           "Host": "mmc-event.azurewebsites.net"
         }
       ]
+    },
+
+    // event Images
+    {
+      "UpstreamPathTemplate": "/gateway/event/images/uploadeventimages",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/api/images/uploadeventimages",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mmc-event.azurewebsites.net"
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/event/images/uploadsliderimage",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/api/images/uploadsliderimage",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mmc-event.azurewebsites.net"
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/event/images/uploadimageforlistevent",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/api/images/uploadimageforlistevent",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mmc-event.azurewebsites.net"
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/event/images/{fileId}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "DownstreamPathTemplate": "/api/images/{fileId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mmc-event.azurewebsites.net"
+        }
+      ]
     }
-
-
   ]
 }
