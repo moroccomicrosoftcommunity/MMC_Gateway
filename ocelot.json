@@ -374,17 +374,17 @@
         }
       ]
     },
-    //{
-    //  "UpstreamPathTemplate": "/gateway/images/{fileId}",
-    //  "UpstreamHttpMethod": [ "Get", "Delete" ],
-    //  "DownstreamPathTemplate": "/api/images/{fileId}",
-    //  "DownstreamScheme": "https",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "mmc-speaker.azurewebsites.net"
-    //    }
-    //  ]
-    //},
+    {
+      "UpstreamPathTemplate": "/gateway/images/{fileId}",
+      "UpstreamHttpMethod": [ "Get", "Delete", "Post" ],
+      "DownstreamPathTemplate": "/api/images/{fileId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mmc-speaker.azurewebsites.net"
+        }
+      ]
+    },
 
     //EventSpeakers gateway
 
