@@ -651,7 +651,7 @@
     },
     {
       "UpstreamPathTemplate": "/gateway/eventimages/{fileId}",
-      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "UpstreamHttpMethod": [ "Post","Get", "Delete" ],
       "DownstreamPathTemplate": "/api/images/{fileId}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
