@@ -627,7 +627,7 @@
 
     // event Images
     {
-      "UpstreamPathTemplate": "/gateway/event/images/uploadeventimages",
+      "UpstreamPathTemplate": "/gateway/eventimages/uploadeventimages",
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamPathTemplate": "/api/images/uploadeventimages",
       "DownstreamScheme": "https",
@@ -638,7 +638,7 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/gateway/event/images/uploadsliderimage",
+      "UpstreamPathTemplate": "/gateway/eventimages/uploadsliderimage",
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamPathTemplate": "/api/images/uploadsliderimage",
       "DownstreamScheme": "https",
@@ -649,7 +649,7 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/gateway/event/images/uploadimageforlistevent",
+      "UpstreamPathTemplate": "/gateway/eventimages/uploadimageforlistevent",
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamPathTemplate": "/api/images/uploadimageforlistevent",
       "DownstreamScheme": "https",
@@ -660,7 +660,7 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/gateway/event/images/{fileId}",
+      "UpstreamPathTemplate": "/gateway/eventimages/{fileId}",
       "UpstreamHttpMethod": [ "Get", "Delete" ],
       "DownstreamPathTemplate": "/api/images/{fileId}",
       "DownstreamScheme": "https",
@@ -671,7 +671,7 @@
       ]
     },
     {
-      "UpstreamPathTemplate": "/gateway/event/images",
+      "UpstreamPathTemplate": "/gateway/eventimages",
       "UpstreamHttpMethod": ["Get"],
       "DownstreamPathTemplate": "/api/images",
       "DownstreamScheme": "https",
