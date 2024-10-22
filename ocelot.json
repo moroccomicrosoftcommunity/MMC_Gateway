@@ -659,6 +659,41 @@
           "Host": "mmc-event.azurewebsites.net"
         }
       ]
+    },
+
+    //sliders In event
+    {
+      "UpstreamPathTemplate": "/gateway/Slider/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete", "Put" ],
+      "DownstreamPathTemplate": "/api/Slider/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mmc-event.azurewebsites.net"
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Slider",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamPathTemplate": "/api/Slider",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mmc-event.azurewebsites.net"
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Slider/GetAllNotDisabled",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/Slider/GetAllNotDisabled",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mmc-event.azurewebsites.net"
+        }
+      ]
     }
   ]
 }
