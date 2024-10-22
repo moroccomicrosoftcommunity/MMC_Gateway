@@ -669,6 +669,17 @@
           "Host": "mmc-event.azurewebsites.net"
         }
       ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/event/images",
+      "UpstreamHttpMethod": ["Get"],
+      "DownstreamPathTemplate": "/api/images",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mmc-event.azurewebsites.net"
+        }
+      ]
     }
   ]
 }
