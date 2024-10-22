@@ -339,17 +339,7 @@
         }
       ]
     },
-    {
-      "UpstreamPathTemplate": "/gateway/eventimages",
-      "UpstreamHttpMethod": [ "Post" ],
-      "DownstreamPathTemplate": "/uploadeventimages",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "mmc-event.azurewebsites.net"
-        }
-      ]
-    },
+    
     {
       "UpstreamPathTemplate": "/gateway/sponsorimages",
       "UpstreamHttpMethod": [ "Post" ],
@@ -663,17 +653,6 @@
       "UpstreamPathTemplate": "/gateway/eventimages/{fileId}",
       "UpstreamHttpMethod": [ "Get", "Delete" ],
       "DownstreamPathTemplate": "/api/images/{fileId}",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "mmc-event.azurewebsites.net"
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/gateway/eventimages",
-      "UpstreamHttpMethod": ["Get"],
-      "DownstreamPathTemplate": "/api/images",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
