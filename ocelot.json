@@ -694,6 +694,31 @@
           "Host": "mmc-event.azurewebsites.net"
         }
       ]
+    },
+
+    // Next and Past event
+
+    {
+      "UpstreamPathTemplate": "/gateway/Event/GetNextEvent",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/Event/GetNextEvent",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mmc-event.azurewebsites.net"
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Event/GetPastEvent",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/Event/GetPastEvent",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mmc-event.azurewebsites.net"
+        }
+      ]
     }
   ]
 }
